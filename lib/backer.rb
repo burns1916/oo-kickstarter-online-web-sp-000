@@ -10,6 +10,7 @@ end
 
 def back_project(project)
   @backed_projects << project
+  add_backer(baker)
 end
 
 
